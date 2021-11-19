@@ -136,11 +136,17 @@ _(Array)_ Gets the contents different blocks.
 ```javascript
 /* Usage examples: */
 
-/* Get post id: */
-var postid = posts[i].id;
+var posts = mxs_get_cases(10);
 
-/*  Get posts thumbnail image: */ 
-var postimage = posts[i].caseimage.thumbnail;
+for(let i = 0; i< posts.length; i++) {
+
+	/* Get post id: */
+	var postid = posts[i].id;
+
+	/*  Get posts thumbnail image: */ 
+	var postimage = posts[i].caseimage.thumbnail;
+
+}
  ```
  
  **mxs_get_case(** _id_ **)** – Get specific Maxess Case
@@ -221,6 +227,8 @@ _(Array)_ Gets the contents different blocks.
 
 ```javascript
 /* Usage examples: */
+
+var post = mxs_get_case(id);
 
 /* Get posts full content: */
 var postcontent = post.content;
