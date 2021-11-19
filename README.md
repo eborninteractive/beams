@@ -47,7 +47,7 @@ Note that because rest api calls are asynchronous you need to enclose your funct
 
 		var post = (await mxs_get_case(id));
 
-		var content_single = '<div class="topimage"><img src="'+post[0].caseimage.full+'"></div><div class="content">'+post[0].content;
+		var content_single = '<div class="topimage"><img src="'+post.caseimage.full+'"></div><div class="content">'+post.content;
 
 		$('#content-container').html(content_single);
 
@@ -223,8 +223,8 @@ _(Array)_ Gets the contents different blocks.
 /* Usage examples: */
 
 /* Get posts full content: */
-var postid = post[0].content;
+var postid = post.content;
 
 /*  Get posts full image: */ 
-var postimage = post[0].caseimage.full;
+var postimage = post.caseimage.full;
  ```
