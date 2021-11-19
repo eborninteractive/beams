@@ -135,5 +135,98 @@ _(Array)_ Gets the contents different blocks.
 	_(String)_ Get the html-formatted content.
 
 ```javascript
+/* Usage examples: */
 
+/* Get post id: */
+var postid = posts[i].id;
+
+/*  Get posts thumbnail image: */ 
+var postimage = posts[i].caseimage.thumbnail;
+ ```
+ 
+ **mxs_get_case(** _id_ **)**
+Get specific Maxess Case
+
+Parameters:
+
+- **id**
+_(Number)_ The Case id.
+
+- **card_ids**
+_(Array)_ Gets the id:s of the connected Case Cards.
+
+- **title**
+_(String)_ The Case Title.
+
+- **permalink**
+_(String)_ The Case Permalink.
+
+- **content**
+_(String)_ The Case full Content.
+
+- **short_desc**
+_(String)_ The Case short description (excerpt).
+
+- **caseimage**
+_(Array)_ The Case main image in different formats.
+	- Image formats:
+
+	- **full**
+	_(String)_ Image size: 1867x552 px
+	
+	- **medium**
+	_(String)_ Image size: 1800x532 px
+	
+	- **small**
+	_(String)_ Image size: 300x89 px
+	
+	- **thumbnail**
+	_(String)_ Image size: 150x150 px
+	
+- **sourcefiles**
+_(Array)_ The connected sourcefiles.
+	- Parameters:
+
+	- **id**
+	_(Number)_ The sourcefile id.
+	
+	- **title**
+	_(String)_ The sourcefile manually named label.
+	
+	- **url**
+	_(String)_ The sourcefile url.
+	
+	- **filename**
+	_(String)_ The sourcefile original filename.
+	
+	- **filesize**
+	_(Number)_ The sourcefile filesize.
+	
+	- **icon**
+	_(String)_ The sourcefile fileicon.
+
+- **blocks**
+_(Array)_ Gets the contents different blocks.
+	- Parameters:
+
+	- **name**
+	_(String)_ The block name.
+	
+	- **content**
+	_(String)_ Get the unformatted text content (used in specific blocks).
+	
+	- **url**
+	_(String)_ Used for the image-block to get the image url.
+	
+	- **innerHTML**
+	_(String)_ Get the html-formatted content.
+
+```javascript
+/* Usage examples: */
+
+/* Get posts full content: */
+var postid = posts[0].content;
+
+/*  Get posts full image: */ 
+var postimage = posts[0].caseimage.full;
  ```
