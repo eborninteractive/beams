@@ -69,7 +69,7 @@ Parameters:
 _(Number)_ The Case id.
 
 - **card_ids**
-_(Array)_ Gets the id:s of the connected Case Cards.
+_(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
 
 - **title**
 _(String)_ The Case Title.
@@ -162,7 +162,7 @@ Parameters:
 _(Number)_ The Case id.
 
 - **card_ids**
-_(Array)_ Gets the id:s of the connected Case Cards.
+_(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
 
 - **title**
 _(String)_ The Case Title.
