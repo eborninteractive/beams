@@ -11,7 +11,7 @@ Download and link or directly link to the js-sourcefile from the MaxEss server.
 ```
 
 # Examples
-List cases. 
+**List cases.**
 
 Note that because rest api calls are asynchronous you need to enclose your function call in an `async statement`. You also have to use the `await syntax` before the actual function.
 ```javascript
@@ -37,7 +37,7 @@ Note that because rest api calls are asynchronous you need to enclose your funct
 </script>
  ```
  
-Show selected case. 
+**Show selected case.**
 
 Note that because rest api calls are asynchronous you need to enclose your function call in an `async statement`. You also have to use the `await syntax` before the actual function.
 ```javascript
