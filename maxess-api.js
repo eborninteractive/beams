@@ -258,6 +258,6 @@ async function mxs_get_case(id) {
         //
         
         
-       return mxc_item;
+       return mxc_item[0];
        
 }
