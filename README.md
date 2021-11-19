@@ -24,7 +24,7 @@ Note that because rest api calls are asynchronous you need to enclose your funct
 
 		for(let i = 0; i< posts.length; i++) {
 
-			content += '<div class="case"><div class="image"><img src="'+posts[i].caseimage.small+'"></div><div class="text"><h2>'+posts[i].title+'</h2>'+posts[i].short_desc+'</div></div>';
+			content += '<div class="case"><div class="image"><img src="'+posts[i].caseimage.thumbnail+'"></div><div class="text"><h2>'+posts[i].title+'</h2>'+posts[i].short_desc+'</div></div>';
 
 		}
 
