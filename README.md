@@ -119,7 +119,7 @@ _(Array)_ The connected sourcefiles.
 	_(Number)_ The sourcefile filesize.
 	
 	- **icon**
-	_(String)_ The sourcefile fileicon.
+	_(String)_ The sourcefile file icon.
 
 - **blocks**
 _(Array)_ Gets the contents different blocks.
@@ -212,7 +212,7 @@ _(Array)_ The connected sourcefiles.
 	_(Number)_ The sourcefile filesize.
 	
 	- **icon**
-	_(String)_ The sourcefile fileicon.
+	_(String)_ The sourcefile file icon.
 
 - **blocks**
 _(Array)_ Gets the contents different blocks.
