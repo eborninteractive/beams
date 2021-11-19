@@ -223,8 +223,8 @@ _(Array)_ Gets the contents different blocks.
 /* Usage examples: */
 
 /* Get posts full content: */
-var postid = posts[0].content;
+var postid = post[0].content;
 
 /*  Get posts full image: */ 
-var postimage = posts[0].caseimage.full;
+var postimage = post[0].caseimage.full;
  ```
