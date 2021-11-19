@@ -62,7 +62,6 @@ The different functions to use within the MaxEss Api.
 ### mxs_get_cases ( _number_of_cases_ ) 
 Function to get the MaxEss cases.
 
-
 Parameters:
 
 - **id**
