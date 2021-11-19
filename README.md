@@ -57,8 +57,7 @@ Note that because rest api calls are asynchronous you need to enclose your funct
  ```
  
 # Functions
-**mxs_get_cases(** _number_of_cases_ **)**
-Gets Maxess Cases
+**mxs_get_cases(** _number_of_cases_ **)** – Gets Maxess Cases
 
 Parameters:
 
@@ -144,8 +143,7 @@ var postid = posts[i].id;
 var postimage = posts[i].caseimage.thumbnail;
  ```
  
- **mxs_get_case(** _id_ **)**
-Get specific Maxess Case
+ **mxs_get_case(** _id_ **)** – Get specific Maxess Case
 
 Parameters:
 
