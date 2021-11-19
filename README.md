@@ -57,10 +57,10 @@ Note that because rest api calls are asynchronous you need to enclose your funct
  ```
  
 # Functions
-The different functions to use within the Maxess Api.
+The different functions to use within the MaxEss Api.
 
 ### mxs_get_cases ( _number_of_cases_ ) 
-Function to get the Maxess cases.
+Function to get the MaxEss cases.
 
 
 Parameters:
@@ -154,7 +154,7 @@ for(let i = 0; i< posts.length; i++) {
  ```
  
 ### mxs_get_case ( _id_ ) 
-Function to get a specific Maxess case.
+Function to get a specific MaxEss case.
 
 Parameters:
 
