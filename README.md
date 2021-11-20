@@ -47,7 +47,7 @@ Note that because rest api calls are asynchronous you need to enclose your funct
 
 		var post = (await mxs_get_case(id));
 
-		var content_single = '<div class="topimage"><img src="'+post.caseimage.full+'"></div><div class="content">'+post.content+'</div>';
+		var content_single = '<div class="topimage"><img src="'+post.caseimage.full+'"></div><h1>'+post.title+'</h1><div class="content">'+post.content+'</div>';
 
 		$('#content-container').html(content_single);
 
