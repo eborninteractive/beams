@@ -158,7 +158,7 @@ var postimage = post.caseimage.full;
 /* Usage example. Displaying return value of certain post */
 
 var post = mxs_get_case(id);
-console.log(post)
+console.log(post);
 	
 /* Output: */
 	
