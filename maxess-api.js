@@ -113,6 +113,7 @@ async function mxs_get_cases(count = 100) {
 				    'permalink' : data[i].link,
 				    'content' :  data[i].content.rendered,
 				    'short_desc' :  data[i].acf.short_description,
+				    'tag_ids' : data[i].tags,
 				    'caseimage' : caseimage,
 				    'sourcefiles' : sourcefiles,
 				    'blocks' : blocks
@@ -245,6 +246,7 @@ async function mxs_get_case(id) {
 				    'permalink' : data[i].link,
 				    'content' :  data[i].content.rendered,
 				    'short_desc' :  data[i].acf.short_description,
+				    'tag_ids' : data[i].tags,
 				    'caseimage' : caseimage,
 				    'sourcefiles' : sourcefiles,
 				    'blocks' : blocks
