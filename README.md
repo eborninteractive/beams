@@ -151,7 +151,7 @@ var postcontent = post.content;
 var postimage = post.caseimage.full;
  ```
  <details>
-  <summary>Post return value</summary>
+  <summary>Show post return value</summary>
 	
   
 ```javascript
