@@ -107,7 +107,8 @@ async function mxs_get_cases(count = 100) {
 			    
 			        
 			    var object = {
-				    'id' : data[i].id, 
+				    'id' : data[i].id,
+				    'publish_date' : data[i].date, 
 				    'card_ids' : cards,
 				    'title' : data[i].title.rendered, 
 				    'permalink' : data[i].link,
@@ -241,6 +242,7 @@ async function mxs_get_case(id) {
 			        
 			    var object = {
 				    'id' : data[i].id, 
+				    'publish_date' : data[i].date, 
 				    'card_ids' : cards,
 				    'title' : data[i].title.rendered, 
 				    'permalink' : data[i].link,
