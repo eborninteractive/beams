@@ -155,6 +155,7 @@ var postimage = post.caseimage.full;
 	
   
 ```javascript
+/* Usage example. Displaying return value of certain post */
 
 var post = mxs_get_case(id);
 console.log(post)
@@ -262,7 +263,7 @@ Function to get the MaxEss cases.
 
 
 ```javascript
-/* Usage example */
+/* Usage example. */
 
 var posts = mxs_get_cases(10);
 
