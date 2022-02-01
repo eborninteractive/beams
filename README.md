@@ -82,6 +82,9 @@ _(String)_ The Case full Content.
 - **short_desc**
 _(String)_ The Case short description (excerpt).
 
+- **tag_ids**
+_(Array)_ Gets the id:s of the added Tags.
+
 - **caseimage**
 _(Array)_ The Case main image in different formats.
 	- Image formats:
