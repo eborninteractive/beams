@@ -67,6 +67,9 @@ Parameters:
 - **id**
 _(Number)_ The Case id.
 
+- **publish_date**
+_(Date)_ The Case publish date.
+
 - **card_ids**
 _(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
 
@@ -162,8 +165,9 @@ console.log(post);
 	
 /* Output: */
 	
- {
+{
     "id": 1918,
+    "publish_date": "2021-04-08T12:55:40",
     "card_ids": [
         {
             "id": 183
