@@ -70,6 +70,12 @@ _(Number)_ The Case id.
 - **publish_date**
 _(Date)_ The Case publish date.
 
+- **start_date**
+_(Date)_ The Case Start date (yyyymmdd).
+
+- **end_date**
+_(Date)_ The Case End date (yyyymmdd).
+
 - **card_ids**
 _(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
 
@@ -87,6 +93,12 @@ _(String)_ The Case short description (excerpt).
 
 - **tag_ids**
 _(Array)_ Gets the id:s of the added Tags.
+
+- **sector_id**
+_(Number)_ Gets the id of the attached Sector.
+
+- **top_organisations**
+_(String)_ The Case Top Organisations.
 
 - **caseimage**
 _(Array)_ The Case main image in different formats.
