@@ -115,6 +115,10 @@ async function mxs_get_cases(count = 100) {
 				    'content' :  data[i].content.rendered,
 				    'short_desc' :  data[i].acf.short_description,
 				    'tag_ids' : data[i].tags,
+				    'sector_id' : data[i].acf.sector,
+				    'top_organisations' : data[i].acf.top_organisations,
+					'start_date' : data[i].acf.start_date,
+					'end_date' : data[i].acf.end_date,
 				    'caseimage' : caseimage,
 				    'sourcefiles' : sourcefiles,
 				    'blocks' : blocks
@@ -249,6 +253,10 @@ async function mxs_get_case(id) {
 				    'content' :  data[i].content.rendered,
 				    'short_desc' :  data[i].acf.short_description,
 				    'tag_ids' : data[i].tags,
+				    'sector_id' : data[i].acf.sector,
+				    'top_organisations' : data[i].acf.top_organisations,
+					'start_date' : data[i].acf.start_date,
+					'end_date' : data[i].acf.end_date,
 				    'caseimage' : caseimage,
 				    'sourcefiles' : sourcefiles,
 				    'blocks' : blocks
