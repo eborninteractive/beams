@@ -59,99 +59,6 @@ Note that because rest api calls are asynchronous you need to enclose your funct
 # Functions
 The different functions to use within the MaxEss Api.
 
-### mxs_get_cases ( _number_of_cases_ ) 
-Function to get the MaxEss cases.
-
-Parameters:
-
-- **id**
-_(Number)_ The Case id.
-
-- **card_ids**
-_(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
-
-- **title**
-_(String)_ The Case Title.
-
-- **permalink**
-_(String)_ The Case Permalink.
-
-- **content**
-_(String)_ The Case full Content.
-
-- **short_desc**
-_(String)_ The Case short description (excerpt).
-
-- **caseimage**
-_(Array)_ The Case main image in different formats.
-	- Image formats:
-
-	- **full**
-	_(String)_ Image size: 1867x552 px
-	
-	- **medium**
-	_(String)_ Image size: 1800x532 px
-	
-	- **small**
-	_(String)_ Image size: 300x89 px
-	
-	- **thumbnail**
-	_(String)_ Image size: 150x150 px
-	
-- **sourcefiles**
-_(Array)_ The connected sourcefiles.
-	- Parameters:
-
-	- **id**
-	_(Number)_ The sourcefile id.
-	
-	- **title**
-	_(String)_ The sourcefile manually named label.
-	
-	- **url**
-	_(String)_ The sourcefile url.
-	
-	- **filename**
-	_(String)_ The sourcefile original filename.
-	
-	- **filesize**
-	_(Number)_ The sourcefile filesize.
-	
-	- **icon**
-	_(String)_ The sourcefile file icon.
-
-- **blocks**
-_(Array)_ Gets the contents different blocks.
-	- Parameters:
-
-	- **name**
-	_(String)_ The block name.
-	
-	- **content**
-	_(String)_ Get the unformatted text content (used in specific blocks).
-	
-	- **url**
-	_(String)_ Used for the image-block to get the image url.
-	
-	- **innerHTML**
-	_(String)_ Get the html-formatted content.
-
-```javascript
-/* Usage examples: */
-
-var posts = mxs_get_cases(10);
-
-for(let i = 0; i< posts.length; i++) {
-
-	/* Get post id: */
-	var postid = posts[i].id;
-
-	/*  Get posts thumbnail image: */ 
-	var postimage = posts[i].caseimage.thumbnail;
-
-}
- ```
- 
 ### mxs_get_case ( _id_ ) 
 Function to get a specific MaxEss case.
 
@@ -239,4 +146,24 @@ var postcontent = post.content;
 
 /*  Get posts full image: */ 
 var postimage = post.caseimage.full;
+ ```
+
+### mxs_get_cases ( _number_of_cases_ ) 
+Function to get the MaxEss cases.
+
+
+```javascript
+/* Usage examples: */
+
+var posts = mxs_get_cases(10);
+
+for(let i = 0; i< posts.length; i++) {
+
+	/* Get post id: */
+	var postid = posts[i].id;
+
+	/*  Get posts thumbnail image: */ 
+	var postimage = posts[i].caseimage.thumbnail;
+
+}
  ```
