@@ -137,7 +137,7 @@ _(Array)_ Gets the contents different blocks.
 	_(String)_ Get the html-formatted content.
 
 ```javascript
-/* Usage example. Get case with certain ID. */
+/* Usage example. */
 
 var post = mxs_get_case(id);
 
@@ -153,7 +153,7 @@ Function to get the MaxEss cases.
 
 
 ```javascript
-/* Usage example. Get the 10 latest cases */
+/* Usage example */
 
 var posts = mxs_get_cases(10);
 
