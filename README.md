@@ -200,63 +200,6 @@ console.log(post);
             "filetype": "pdf",
             "icon": "https://maxess.se/wp-includes/images/media/document.png"
         }
-    ],
-    "blocks": [
-        {
-            "name": "core/paragraph",
-            "content": "The company Ovako has developed the innovative Hybrid Steel and wants to gain a more thorough understanding of its composition at the nanometre level. Together with researchers from Chalmers University of Technology they performed X-ray experiments that can help refining the production process of their new proprietary material.",
-            "innerHTML": "\n<p>The company Ovako has developed the innovative Hybrid Steel and wants to gain a more thorough understanding of its composition at the nanometre level. Together with researchers from Chalmers University of Technology they performed X-ray experiments that can help refining the production process of their new proprietary material.</p>\n"
-        },
-        {
-            "name": "core/heading",
-            "content": "<strong>A stronger and more efficient steel</strong>",
-            "innerHTML": "\n<h2><strong>A stronger and more efficient steel</strong></h2>\n"
-        },
-        {
-            "name": "core/paragraph",
-            "content": "Ovako is a leading European manufacturer of engineering steel serving many industry sectors such as bearing, transportation, and manufacturing. Ovako developed and patented the Hybrid Steel, a type of steel that obtains its peculiar high strength by combining precipitation of intermetallic NiAl precipitates and carbides. Due to its unique composition, the precipitation process of Hybrid Steel is rather complex and still partially undescribed. By performing X-ray scattering, Ovako aims at gaining advanced in-depth understanding of the heat treatment used in the precipitation process. This additional",
-            "innerHTML": "\n<p>Ovako is a leading European manufacturer of engineering steel serving many industry sectors such as bearing, transportation, and manufacturing. Ovako developed and patented the Hybrid Steel, a type of steel that obtains its peculiar high strength by combining precipitation of intermetallic NiAl precipitates and carbides. Due to its unique composition, the precipitation process of Hybrid Steel is rather complex and still partially undescribed. By performing X-ray scattering, Ovako aims at gaining advanced in-depth understanding of the heat treatment used in the precipitation process. This additional</p>\n"
-        },
-        {
-            "name": "core/image",
-            "url": "https://maxess.se/wp-content/uploads/2021/04/ovako-bars-imatra-1024x683.jpg",
-            "innerHTML": "\n<figure class=\"wp-block-image size-large\"><img src=\"https://maxess.se/wp-content/uploads/2021/04/ovako-bars-imatra-1024x683.jpg\" alt=\"\" class=\"wp-image-1919\"/><figcaption>Steel bars in an Ovako factory. Source: ovako.com</figcaption></figure>\n"
-        },
-        {
-            "name": "core/heading",
-            "content": "<strong>More data, faster</strong>",
-            "innerHTML": "\n<h2><strong>More data, faster</strong></h2>\n"
-        },
-        {
-            "name": "core/paragraph",
-            "content": "The precipitates composing the Hybrid Steel are very small, usually on the scale of tens of nanometres. Identifying and characterising these precipitates with conventional techniques such as transmission electron microscopy (TEM) or atom probe tomography (APT) is a time-consuming process. In contrast, synchrotron X-rays allow to reach the same or even higher resolution and collect a significant amount of data in less time. Furthermore, the fast acquisition possible at synchrotron facilities also allows to study the precipitation process in situ. Thus, synchrotron light presents significant advantages that can facilitate Ovako’s mission of optimising their steel.",
-            "innerHTML": "\n<p>The precipitates composing the Hybrid Steel are very small, usually on the scale of tens of nanometres. Identifying and characterising these precipitates with conventional techniques such as transmission electron microscopy (TEM) or atom probe tomography (APT) is a time-consuming process. In contrast, synchrotron X-rays allow to reach the same or even higher resolution and collect a significant amount of data in less time. Furthermore, the fast acquisition possible at synchrotron facilities also allows to study the precipitation process in situ. Thus, synchrotron light presents significant advantages that can facilitate Ovako’s mission of optimising their steel.</p>\n"
-        },
-        {
-            "name": "core/heading",
-            "content": "<strong>New opportunities for the development of Hybrid Steel</strong>",
-            "innerHTML": "\n<h2><strong>New opportunities for the development of Hybrid Steel</strong></h2>\n"
-        },
-        {
-            "name": "core/paragraph",
-            "content": "A team of researchers from Ovako in collaboration with scientists from Chalmers University of Technology performed simultaneous Wide-Angle X-ray Scattering (WAXS) and Small-Angle X-ray Scattering (SAXS) at the Petra III synchrotron in Hamburg, Germany. The in-situ measurements were carried out using a Linkam furnace with heat treatment times ranging from 1 to 20 hours. The researchers were able to acquire a large amount of data on the heat-treated samples and characterised the precipitates both in size and structure. In-situ experiments generated unprecedented observations of the development of the precipitates over time during the heat treatment.",
-            "innerHTML": "\n<p>A team of researchers from Ovako in collaboration with scientists from Chalmers University of Technology performed simultaneous Wide-Angle X-ray Scattering (WAXS) and Small-Angle X-ray Scattering (SAXS) at the Petra III synchrotron in Hamburg, Germany. The in-situ measurements were carried out using a Linkam furnace with heat treatment times ranging from 1 to 20 hours. The researchers were able to acquire a large amount of data on the heat-treated samples and characterised the precipitates both in size and structure. In-situ experiments generated unprecedented observations of the development of the precipitates over time during the heat treatment.</p>\n"
-        },
-        {
-            "name": "core/paragraph",
-            "content": "Overall, the experiments provided Ovako with precious information of their Hybrid Steel. This knowledge is instrumental for the company and can help not only to optimise heat treatment procedures, but also to refine and diversify the production of Hybrid Steel.",
-            "innerHTML": "\n<p>Overall, the experiments provided Ovako with precious information of their Hybrid Steel. This knowledge is instrumental for the company and can help not only to optimise heat treatment procedures, but also to refine and diversify the production of Hybrid Steel.</p>\n"
-        },
-        {
-            "name": "core/image",
-            "url": "https://maxess.se/wp-content/uploads/2021/04/production-smedjebacken-3-683x1024.jpg",
-            "innerHTML": "\n<figure class=\"wp-block-image size-large\"><img src=\"https://maxess.se/wp-content/uploads/2021/04/production-smedjebacken-3-683x1024.jpg\" alt=\"\" class=\"wp-image-1920\"/><figcaption>Smedjebacken Steel mill Production.&nbsp; Photo: Ebba Persson&nbsp; Source: ovako.com</figcaption></figure>\n"
-        },
-        {
-            "name": "core/paragraph",
-            "content": "",
-            "innerHTML": "\n<p></p>\n"
-        }
     ]
 }
  ```
