@@ -138,22 +138,6 @@ _(Array)_ The connected sourcefiles.
 	- **icon**
 	_(String)_ The sourcefile file icon.
 
-- **blocks**
-_(Array)_ Gets the contents different blocks.
-	- Parameters:
-
-	- **name**
-	_(String)_ The block name.
-	
-	- **content**
-	_(String)_ Get the unformatted text content (used in specific blocks).
-	
-	- **url**
-	_(String)_ Used for the image-block to get the image url.
-	
-	- **innerHTML**
-	_(String)_ Get the html-formatted content.
-
 ```javascript
 /* Usage example. */
 
