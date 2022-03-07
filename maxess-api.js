@@ -69,7 +69,7 @@ async function mxs_get_cases(count = 100) {
 			    //
 			    
 			    //Blocks
-			    var bl = data[i].blocks;
+			    /*var bl = data[i].blocks;
 			    var blocks = new Array();
 			    
 			    for (y = 0; y < bl.length; y++) {
@@ -86,7 +86,7 @@ async function mxs_get_cases(count = 100) {
 				    blocks.push(block);
 		 
 			    }
-			    //
+			    //*/
 			    
 			    //Cards
 			    var cds = data[i].acf.cards;
@@ -120,8 +120,7 @@ async function mxs_get_cases(count = 100) {
 					'start_date' : data[i].acf.start_date,
 					'end_date' : data[i].acf.end_date,
 				    'caseimage' : caseimage,
-				    'sourcefiles' : sourcefiles,
-				    'blocks' : blocks
+				    'sourcefiles' : sourcefiles
 			    }
 			    
 			    mxc_item.push(object); 
@@ -208,7 +207,7 @@ async function mxs_get_case(id) {
 			    //
 			    
 			    //Blocks
-			    var bl = data[i].blocks;
+			    /*var bl = data[i].blocks;
 			    var blocks = new Array();
 			    
 			    for (y = 0; y < bl.length; y++) {
@@ -224,7 +223,7 @@ async function mxs_get_case(id) {
 				    
 				    blocks.push(block);
 		 
-			    }
+			    }*/
 			    //
 			    
 			    //Cards
@@ -258,8 +257,7 @@ async function mxs_get_case(id) {
 					'start_date' : data[i].acf.start_date,
 					'end_date' : data[i].acf.end_date,
 				    'caseimage' : caseimage,
-				    'sourcefiles' : sourcefiles,
-				    'blocks' : blocks
+				    'sourcefiles' : sourcefiles
 			    }
 			    
 			    mxc_item.push(object); 
