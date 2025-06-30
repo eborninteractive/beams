@@ -2,7 +2,7 @@
 MaxEss API makes it possible to list selected cases from the maxess.se website on your own website.
 
 # Live Demo
-Check out a live demo [here](http://maxess.se/api/demo/).
+Check out a live demo [here](http://beams.se/api/demo/).
 
 # Usage
 Download and link or directly link to the js-sourcefile from the MaxEss server.
