@@ -77,7 +77,7 @@ _(Date)_ The Case Start date (yyyymmdd).
 _(Date)_ The Case End date (yyyymmdd).
 
 - **card_ids**
-_(Array)_ Gets the id:s of the connected MaxEss Contact Cards.
+_(Array)_ Gets the id:s of the connected BEAMS Contact Cards.
 
 - **title**
 _(String)_ The Case Title.
