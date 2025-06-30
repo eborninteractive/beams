@@ -57,10 +57,10 @@ Note that because rest api calls are asynchronous you need to enclose your funct
  ```
  
 # Functions
-The different functions to use within the MaxEss Api.
+The different functions to use within the BEAMS Api.
 
 ### mxs_get_case ( _id_ ) 
-Function to get a specific MaxEss case.
+Function to get a specific BEAMS case.
 
 Attributes:
 
@@ -206,7 +206,7 @@ console.log(post);
 </details>
 
 ### mxs_get_cases ( _number_of_cases_ ) 
-Function to get the MaxEss cases.
+Function to get the BEAMS cases.
 
 
 ```javascript
