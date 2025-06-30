@@ -1,4 +1,4 @@
-
+ms
 
 var object_cases = new Array();
 
@@ -8,7 +8,7 @@ async function mxs_get_cases(count = 100) {
 	
 	var mxc_item = new Array();
 	
-	var url = 'https://maxess.se/wp-json/wp/v2/case?per_page='+count;
+	var url = 'https://beams.se/wp-json/wp/v2/case?per_page='+count;
 	
 	
    let response = await new Promise(resolve => {
@@ -147,7 +147,7 @@ async function mxs_get_case(id) {
 		var addID = "?include[]=" + id;
 	}
 	
-	var url = 'https://maxess.se/wp-json/wp/v2/case/'+addID;
+	var url = 'https://beams.se/wp-json/wp/v2/case/'+addID;
 	
 	
    let response = await new Promise(resolve => {
