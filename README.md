@@ -5,7 +5,7 @@ BEAMS API makes it possible to list selected cases from the maxess.se website on
 Check out a live demo [here](http://beams.se/api/demo/).
 
 # Usage
-Download and link or directly link to the js-sourcefile from the MaxEss server.
+Download and link or directly link to the js-sourcefile from the BEAMS server.
 ```javascript
 <script type="text/javascript" src="https://beams.se/api/src/maxess-api.js"></script>
 ```
