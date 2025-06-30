@@ -1,5 +1,3 @@
-ms
-
 var object_cases = new Array();
 
 
