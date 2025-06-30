@@ -7,7 +7,7 @@ Check out a live demo [here](http://beams.se/api/demo/).
 # Usage
 Download and link or directly link to the js-sourcefile from the BEAMS server.
 ```javascript
-<script type="text/javascript" src="https://beams.se/api/src/maxess-api.js"></script>
+<script type="text/javascript" src="https://beams.se/api/src/beams-api.js"></script>
 ```
 
 # Examples
